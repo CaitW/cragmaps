@@ -88,6 +88,32 @@ body {
   height: 100%;
   width: 100%; }
 
+#title {
+  font-family: "Amatic SC";
+  position: absolute;
+  right: 1vw;
+  top: 1vh;
+  color: #fff;
+  font-size: 3vw; }
+
+.region {
+  stroke: #fff;
+  stroke-width: 3px;
+  fill: none;
+  stroke-dasharray: 3px 4px; }
+
+.area {
+  stroke: none;
+  fill: #00BCD4;
+  -webkit-box-shadow: 15px 15px 15px 5px rgba(255, 255, 190, 0.75);
+  -moz-box-shadow: 15px 15px 15px 5px rgba(255, 255, 190, 0.75);
+  box-shadow: 15px 15px 15px 5px rgba(255, 255, 190, 0.75); }
+
+.trail {
+  stroke: #FF9800;
+  stroke-width: 2px;
+  fill: none; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

@@ -22,11 +22,7 @@ $(document).ready(function() {
 
 		$.each(data.regions, function (index, value) { 
 			var customLayer = L.geoJson(null, {
-			    style: { 
-			    	color: '#fff',
-			    	fillOpacity: 0,
-			    	weight: 3
-			    }
+				className: "region"
 			});
 			var runLayer = omnivore.kml("./data/Hueco/kml/regions/" + value, null, customLayer)
 			overlays.regions.addLayer(runLayer);
@@ -34,7 +30,7 @@ $(document).ready(function() {
 
 		$.each(data.areas, function (index, value) { 
 			var customLayer = L.geoJson(null, {
-			    style: { color: '#000' }
+				className: "area"
 			});
 			var runLayer = omnivore.kml("./data/Hueco/kml/areas/" + value, null, customLayer)
 			overlays.areas.addLayer(runLayer);
@@ -42,7 +38,7 @@ $(document).ready(function() {
 
 		$.each(data.trails, function (index, value) { 
 			var customLayer = L.geoJson(null, {
-			    style: { color: '#000' }
+				className: "trail"
 			});
 			var runLayer = omnivore.kml("./data/Hueco/kml/trails/" + value, null, customLayer)
 			overlays.trails.addLayer(runLayer);
@@ -50,7 +46,7 @@ $(document).ready(function() {
 
 		$.each(data.boulders, function (index, value) { 
 			var customLayer = L.geoJson(null, {
-			    style: { color: '#000' }
+				className: "boulder"
 			});
 			var runLayer = omnivore.kml("./data/Hueco/kml/boulders/" + value, null, customLayer)
 			overlays.boulders.addLayer(runLayer);
@@ -58,7 +54,7 @@ $(document).ready(function() {
 
 		$.each(data.routes, function (index, value) { 
 			var customLayer = L.geoJson(null, {
-			    style: { color: '#000' }
+				className: "route"
 			});
 			var runLayer = omnivore.kml("./data/Hueco/kml/routes/" + value, null, customLayer)
 			overlays.routes.addLayer(runLayer);
@@ -66,9 +62,9 @@ $(document).ready(function() {
 
 	}).done(function() {
 
-		$.each(overlays, function (index, overlay){
-			overlay.addTo(map);
-		})
+		overlays.regions.addTo(map);
+		overlays.areas.addTo(map);
+		overlays.trails.addTo(map);
 
 	});
 
