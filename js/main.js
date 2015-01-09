@@ -9,48 +9,70 @@ $(document).ready(function() {
 		"imagery": L.tileLayer("http://otile1.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg").addTo(map)		
 	};
 
+	//set each to a layer group
 	overlays = {
-		regions: {},
-		areas: {},
-		trails: {},
-		boulders: {},
-		routes: {}
+		regions: L.layerGroup(),
+		areas: L.layerGroup(),
+		trails: L.layerGroup(),
+		boulders: L.layerGroup(),
+		routes: L.layerGroup()
 	}
 
 	$.getJSON("./php/getFiles.php", function (data) {
 
 		$.each(data.regions, function (index, value) { 
-			overlays.regions[index] = omnivore.kml("./data/Hueco/kml/regions/" + value).addTo(map);
+			var customLayer = L.geoJson(null, {
+			    style: { 
+			    	color: '#fff',
+			    	fillOpacity: 0,
+			    	weight: 3
+			    }
+			});
+			var runLayer = omnivore.kml("./data/Hueco/kml/regions/" + value, null, customLayer)
+			overlays.regions.addLayer(runLayer);
 		});
 
 		$.each(data.areas, function (index, value) { 
-
-			overlays.areas[index] = omnivore.kml("./data/Hueco/kml/areas/" + value).addTo(map);
-
+			var customLayer = L.geoJson(null, {
+			    style: { color: '#000' }
+			});
+			var runLayer = omnivore.kml("./data/Hueco/kml/areas/" + value, null, customLayer)
+			overlays.areas.addLayer(runLayer);
 		});
 
 		$.each(data.trails, function (index, value) { 
-
-				overlays.trails[index] = omnivore.kml("./data/Hueco/kml/trails/" + value).addTo(map);
-			
+			var customLayer = L.geoJson(null, {
+			    style: { color: '#000' }
+			});
+			var runLayer = omnivore.kml("./data/Hueco/kml/trails/" + value, null, customLayer)
+			overlays.trails.addLayer(runLayer);
 		});
 
 		$.each(data.boulders, function (index, value) { 
-
-				overlays.boulders[index] = omnivore.kml("./data/Hueco/kml/boulders/" + value).addTo(map);
-			
+			var customLayer = L.geoJson(null, {
+			    style: { color: '#000' }
+			});
+			var runLayer = omnivore.kml("./data/Hueco/kml/boulders/" + value, null, customLayer)
+			overlays.boulders.addLayer(runLayer);
 		});
 
 		$.each(data.routes, function (index, value) { 
-
-				overlays.routes[index] = omnivore.kml("./data/Hueco/kml/routes/" + value).addTo(map);
-			
+			var customLayer = L.geoJson(null, {
+			    style: { color: '#000' }
+			});
+			var runLayer = omnivore.kml("./data/Hueco/kml/routes/" + value, null, customLayer)
+			overlays.routes.addLayer(runLayer);
 		});
 
-		
- 
+	}).done(function() {
+
+		$.each(overlays, function (index, overlay){
+			overlay.addTo(map);
+		})
 
 	});
+
+
 
 	
 });
