@@ -6,7 +6,14 @@ $(document).ready(function() {
 
 	basemaps = 
 	{
-		"imagery": L.tileLayer("http://otile1.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg").addTo(map)		
+		"lowResImagery": L.tileLayer("http://otile1.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg", {
+			minZoom: 0,
+			maxZoom: 18,
+		}).addTo(map),	
+		"hiResImagery": L.tileLayer("http://a.basemaps.cartocdn.com/light_all/{z}/{y}/{x}.png", {
+			minZoom: 19,
+			maxZoom: 20
+		}).addTo(map)			
 	};
 
 	//set each to a layer group
@@ -61,14 +68,17 @@ $(document).ready(function() {
 		});
 
 	}).done(function() {
-
 		overlays.regions.addTo(map);
 		overlays.areas.addTo(map);
 		overlays.trails.addTo(map);
-
+		//overlays.boulders.addTo(map);
+		//overlays.routes.addTo(map);
 	});
-
-
-
 	
+});
+
+$(window).load(function() {
+
+
+
 });

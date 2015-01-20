@@ -79,7 +79,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 html {
-  height: 100%; }
+  height: 100%;
+  overflow: hidden; }
 
 body {
   height: 100%; }
@@ -100,14 +101,12 @@ body {
   stroke: #fff;
   stroke-width: 3px;
   fill: none;
-  stroke-dasharray: 3px 4px; }
+  stroke-dasharray: 3px 5px; }
 
 .area {
   stroke: none;
   fill: #00BCD4;
-  -webkit-box-shadow: 15px 15px 15px 5px rgba(255, 255, 190, 0.75);
-  -moz-box-shadow: 15px 15px 15px 5px rgba(255, 255, 190, 0.75);
-  box-shadow: 15px 15px 15px 5px rgba(255, 255, 190, 0.75); }
+  fill-opacity: 0.5; }
 
 .trail {
   stroke: #FF9800;

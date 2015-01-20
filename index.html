@@ -18,16 +18,33 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="js/vendor/leaflet.js"></script>
+        <script src="js/vendor/leaflet-src.js"></script>
         <script src="js/vendor/leaflet-omnivore.min.js"></script>
+
+        <style>
+        .area {
+            filter: url('#blur'); 
+        }
+        </style>
+
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+
+
+
         <div id="map"></div>
         <div id="title">Hueco - North Mountain</div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0" width="0">
+            <defs>
+                <filter id="blur" x="0" y="0">  
+                    <feGaussianBlur in="A" stdDeviation="5"/>
+                </filter>
+            </defs>
+        </svg>
 
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <!--<script src="http://cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.3/esri-leaflet.js"></script>-->
