@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SAGA_METADATA>
+  <HISTORY>
+    <MODULE>Merge Shapes Layers</MODULE>
+    <DATA type="shapes" id="MAIN" name="Main Layer">
+      <FILE>D:/directedStudy/server/apache2/htdocs/cragmaps/data/Hueco/centroids/areas.shp</FILE>D:/directedStudy/server/apache2/htdocs/cragmaps/data/Hueco/centroids/areas.shp</DATA>
+    <DATA_LIST type="shapes_list" id="LAYERS" name="Additional Layers">
+      <DATA>
+        <FILE>C:\Users\Cait\AppData\Local\Temp\processing\74bcd045d7b1475ea0dfc23068b3785c\OUTPUTLAYER.shp</FILE>
+      </DATA>
+      <DATA>
+        <FILE>C:\Users\Cait\AppData\Local\Temp\processing\9908b926c37c442baff2e4d7d4048238\OUTPUTLAYER.shp</FILE>
+      </DATA>
+      <DATA>
+        <FILE>C:\Users\Cait\AppData\Local\Temp\processing\2cf9cab732f84b2da414a21f24f2d5e8\OUTPUTLAYER.shp</FILE>
+      </DATA>
+      <DATA>
+        <FILE>C:\Users\Cait\AppData\Local\Temp\processing\20a627a8b41942279dc8ade217e4e90b\OUTPUTLAYER.shp</FILE>
+      </DATA>
+      <DATA>
+        <FILE>C:\Users\Cait\AppData\Local\Temp\processing\765fb4340be445439b757666ea6a5f51\OUTPUTLAYER.shp</FILE>
+      </DATA>
+      <DATA>
+        <FILE>C:\Users\Cait\AppData\Local\Temp\processing\6d3d2199c8ad4e65a10933966ecd6177\OUTPUTLAYER.shp</FILE>
+      </DATA>
+      <DATA>
+        <FILE>C:\Users\Cait\AppData\Local\Temp\processing\52587f64eb464a4185de685b21765b95\OUTPUTLAYER.shp</FILE>
+      </DATA>
+    </DATA_LIST>
+  </HISTORY>
+  <SOURCE>
+    <FILE>D:/directedStudy/server/apache2/htdocs/cragmaps/data/Hueco/centroids/areas.shp</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION>
+      <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]]</OGC_WKT>
+      <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+</SAGA_METADATA>
