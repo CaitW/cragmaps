@@ -1,0 +1,21 @@
+Task automation steps:
+
+1. Gather all the 
+	1. Regions
+	2. Areas
+	3. Boulders
+2. convert each new .kml file to individual .json files
+3. Merge:
+	1. all regions: regions.json
+	2. all areas: areas.json
+	3. all boulders: 
+		-boulders: boulders_boulders.json
+		-walls: boulders_Walls.json
+4. Get centroids of:
+	1. each area
+	2. each boulder
+5. Merge the centroids into two files
+	1. area_centroids.json
+	2. boulder_centroids.json
+6. run tilemill to compile the new .mbtiles
+7. run Mbliberator to extract it to the tiles folder

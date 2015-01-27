@@ -121,7 +121,12 @@ body
     right: 1vw;
     top: 1vh;
     color: #fff;
-    font-size: 3vw;
+    font-size: 3.5vw;
+}
+
+@media (max-width: 800px)
+{
+    font-size: 5vw;
 }
 
 .region

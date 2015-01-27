@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Adolescent Titties Wall.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Adolescent Titties Wall</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0415815538813,31.92283490456135,0 -106.0416349945387,31.92284063779406,0 -106.0416566595015,31.9228429977744,0 -106.0416778186653,31.92284140238232,0 -106.0416926938525,31.92282592003684,0 -106.0417174988694,31.9228079965244,0 -106.0417444028412,31.92280997680055,0 -106.0417717304743,31.92281243042626,0 -106.0417992625572,31.92281259490472,0 -106.0418264618117,31.92280885767018,0 -106.0418459045606,31.92280150208102,0 -106.0418754288033,31.92279723359026,0 -106.0418878135052,31.92278785559475,0 -106.0418951250605,31.92275429783649,0 -106.0418921179211,31.92273421430047,0 -106.0418913521739,31.92271593208832,0 -106.0418887050013,31.92269173091631,0 -106.0418850756359,31.9226770074543,0 -106.0418872151306,31.92266082172857,0 -106.0418627496719,31.92265482374895,0 -106.0418293371723,31.92264991244217,0 -106.041812419826,31.92265454577158,0 -106.0417849507135,31.92266008908831,0 -106.0417667358541,31.92265633879802,0 -106.0417306961764,31.92266455824641,0 -106.0417101937038,31.922664243826,0 -106.041686671323,31.92268544150791,0 -106.0416515625969,31.9227353085489,0 -106.041626280162,31.9227611464018,0 -106.0416009235868,31.92278618242973,0 -106.0415809388401,31.92280208459537,0 -106.0415702986841,31.92282038131705,0 -106.0415815538813,31.92283490456135,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Wish it Were Still Lost Boulder.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Wish it Were Still Lost Boulder</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0423528292403,31.92169278103786,0 -106.0423671094785,31.92170974866364,0 -106.04237825839,31.92172326146682,0 -106.0423892452388,31.92173317932967,0 -106.0424027245832,31.92173600371295,0 -106.042418779111,31.92173172785505,0 -106.0424236218313,31.9217175490021,0 -106.0424253364555,31.92170209580655,0 -106.0424244658572,31.92169008973604,0 -106.0424261603212,31.92167537842825,0 -106.0424224525959,31.92166171828199,0 -106.0424145292605,31.9216501407007,0 -106.0423969156308,31.9216484213051,0 -106.0423814845189,31.92164297885192,0 -106.0423654644978,31.92163913253512,0 -106.0423555640213,31.92165112206076,0 -106.04234718825,31.92166602232869,0 -106.0423517322811,31.9216786552546,0 -106.0423528292403,31.92169278103786,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

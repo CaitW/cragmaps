@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Lost Cause.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Lost Cause</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0419073890296,31.92195436213641,0 -106.0419276699661,31.92194637986303,0 -106.0419491103452,31.92193101823076,0 -106.0419716293095,31.92190836894049,0 -106.0419736832183,31.92189118950022,0 -106.0419797076001,31.92187734074669,0 -106.0419789742513,31.92186314082858,0 -106.0419634726112,31.92183979453998,0 -106.0419485137053,31.92182809622219,0 -106.0419288105758,31.92181638477887,0 -106.0419119126209,31.92181724630911,0 -106.0418973540029,31.92182580666777,0 -106.0418829694217,31.92183692048661,0 -106.0418772934773,31.92184900312712,0 -106.0418718323146,31.92185702677731,0 -106.0418570967552,31.92186574425355,0 -106.041844473733,31.92187075692959,0 -106.0418388069135,31.92189219677833,0 -106.0418410828941,31.92190438267819,0 -106.0418446961207,31.92191854058799,0 -106.0418506806448,31.92193151672391,0 -106.0418694082914,31.92194869999521,0 -106.0418895217681,31.92195430259919,0 -106.0419073890296,31.92195436213641,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
