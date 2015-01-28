@@ -85,17 +85,29 @@ html {
 body {
   height: 100%; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 #map {
   height: 100%;
   width: 100%; }
 
-#title {
+#header {
   font-family: "Amatic SC";
   position: absolute;
   right: 1vw;
   top: 1vh;
   color: #fff;
-  font-size: 3.5vw; }
+  text-shadow: 0 0 2px #fff; }
+  #header #title {
+    font-size: 3.5vw;
+    line-height: 0.8; }
+  #header #contact {
+    font-size: 2vw;
+    text-align: right; }
+    #header #contact a {
+      margin-left: 1vw; }
 
 @media (max-width: 800px) {
   font-size: 5vw; }

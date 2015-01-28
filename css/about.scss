@@ -114,70 +114,58 @@ a
     color: inherit;
 }
 
-#map
+a:hover
 {
-    height: 100%;
+    color: #2196F3;
+}
+
+#title
+{
     width: 100%;
-}
-
-#header
-{
-     font-family: "Amatic SC";
-    position: absolute;
-    right: 1vw;
-    top: 1vh;
-    color: #fff;
-    text-shadow: 0 0 2px #fff;
-
-    #title
-    {
-       
-        font-size: 3.5vw;
-        line-height: 0.8;
-
-    }
-
-    #contact
-    {
-       
-        font-size: 2vw;
-        text-align: right;
-
-        a
-        {
-            margin-left: 1vw;
-        }
-    }
-}
-
-
-
-@media (max-width: 800px)
-{
+    text-align: center;
+    font-family: "Amatic SC";
     font-size: 5vw;
+    font-weight: bold;
 }
 
-.region
+#content
 {
-    stroke: #fff;
-    stroke-width: 3px;
-    fill: none;
-    stroke-dasharray: 3px 5px;
+    margin: 0 25% 0 25%;
+    font-family: "Merriweather";
+    text-align: justify;
+    font-size: 1.2vw;
 }
 
-.area
+#name, #subtitle
 {
-    stroke: none;
-    fill: #00BCD4;
-    fill-opacity: 0.5;
+    width: 100%;
+    text-align: center;
+    font-family: "Amatic SC";
+    
 }
 
-.trail
+#name
 {
-    stroke: #FF9800;
-    stroke-width: 2px;
-    fill: none;
-   //stroke-dasharray: 3px 4px;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#subtitle
+{
+    font-size: 2vw;
+}
+
+ul 
+{
+    list-style: none;
+    margin: 0 25% 0 25%;
+    text-align: center;
+    font-size: 2vw;
+    padding: 0;
+    li
+    {
+        display: inline;
+    }
 }
 
 /* ==========================================================================
