@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Not Quite as Scary Boulder.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Not Quite as Scary Boulder</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0484721696683,31.92216480901363,0 -106.0484663837291,31.92216970993778,0 -106.0484586805199,31.9221771598931,0 -106.048454964355,31.92218236255813,0 -106.048455273263,31.92218820346821,0 -106.0484555818329,31.92219403687784,0 -106.0484604738539,31.92219868747475,0 -106.0484685412219,31.92220001279788,0 -106.0484738862751,31.92219992856036,0 -106.0484784983207,31.92219874965812,0 -106.0484857081691,31.9221960494777,0 -106.0484931897093,31.92219633505703,0 -106.0485028053309,31.92219415305138,0 -106.0485074147073,31.92219008249525,0 -106.0485120553404,31.92218601810061,0 -106.0485165084137,31.92217895948884,0 -106.0485196132358,31.9221726222967,0 -106.0485213631632,31.92216701293181,0 -106.0485210488654,31.92216105992143,0 -106.048518684261,31.92215478033054,0 -106.0485130087671,31.92215186857566,0 -106.0485053843885,31.92215157376993,0 -106.0484985147875,31.92215238303853,0 -106.0484916997826,31.92215322067746,0 -106.0484830009983,31.92215383085983,0 -106.0484772160894,31.92215878512874,0 -106.0484727451379,31.92216295470577,0 -106.0484714489206,31.92216372429205,0 -106.0484721696683,31.92216480901363,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

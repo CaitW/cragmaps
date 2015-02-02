@@ -89,6 +89,9 @@ a {
   text-decoration: none;
   color: inherit; }
 
+a:hover {
+  color: #E3F2FD; }
+
 #map {
   height: 100%;
   width: 100%; }
@@ -109,23 +112,23 @@ a {
     #header #contact a {
       margin-left: 1vw; }
 
-@media (max-width: 800px) {
-  font-size: 5vw; }
-.region {
-  stroke: #fff;
-  stroke-width: 3px;
-  fill: none;
-  stroke-dasharray: 3px 5px; }
-
-.area {
-  stroke: none;
-  fill: #00BCD4;
-  fill-opacity: 0.5; }
-
-.trail {
-  stroke: #FF9800;
-  stroke-width: 2px;
-  fill: none; }
+#errorModal {
+  display: none;
+  width: 40%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); }
+  #errorModal .fa-times {
+    position: absolute;
+    left: 5px;
+    top: 5px; }
+  #errorModal h1 {
+    font-family: "Amatic SC";
+    text-align: center; }
 
 /* ==========================================================================
    Helper classes

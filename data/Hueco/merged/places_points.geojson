@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Name": "Pete's Climbing Store", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -106.048959217833, 31.892903185506938, 0.0 ] } }
+]
+}

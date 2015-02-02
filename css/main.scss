@@ -113,6 +113,10 @@ a
     text-decoration: none;
     color: inherit;
 }
+a:hover
+{
+    color: #E3F2FD;
+}
 
 #map
 {
@@ -150,34 +154,30 @@ a
     }
 }
 
-
-
-@media (max-width: 800px)
+#errorModal
 {
-    font-size: 5vw;
-}
+    display: none;
+    width: 40%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 
-.region
-{
-    stroke: #fff;
-    stroke-width: 3px;
-    fill: none;
-    stroke-dasharray: 3px 5px;
-}
+    .fa-times
+    {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+    }
 
-.area
-{
-    stroke: none;
-    fill: #00BCD4;
-    fill-opacity: 0.5;
-}
-
-.trail
-{
-    stroke: #FF9800;
-    stroke-width: 2px;
-    fill: none;
-   //stroke-dasharray: 3px 4px;
+    h1
+    {
+        font-family: "Amatic SC";
+        text-align: center;
+    }
 }
 
 /* ==========================================================================

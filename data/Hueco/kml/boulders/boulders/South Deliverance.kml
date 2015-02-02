@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>South Deliverance.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>South Deliverance</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0484853905433,31.92136337094031,0 -106.0484770859384,31.92137252766396,0 -106.0484767636693,31.92138060221668,0 -106.0484808542438,31.92139157359318,0 -106.0484840941882,31.92139577964393,0 -106.0484843473356,31.92140841721848,0 -106.0484855024665,31.92141750279974,0 -106.0484863696653,31.92142432376837,0 -106.0484926013312,31.92143058347246,0 -106.0485015716936,31.92143661204833,0 -106.0485075852905,31.92144065727663,0 -106.0485127383817,31.92143781586405,0 -106.0485188356826,31.92143136731386,0 -106.0485219121501,31.92142286973511,0 -106.0485192035518,31.92141264230476,0 -106.0485192391549,31.92140212645195,0 -106.0485201652265,31.92139851719386,0 -106.048518051487,31.92139292400889,0 -106.0485120254139,31.92137849501151,0 -106.0485059931144,31.92137458921565,0 -106.0484981992772,31.9213674533949,0 -106.0484934287976,31.92136228280265,0 -106.0484853905433,31.92136337094031,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>The Mushroom Boulder.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>The Mushroom Boulder</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0486825261128,31.92186732456953,0 -106.0486941694361,31.92189448787303,0 -106.0487053962883,31.92191780651585,0 -106.0487299105484,31.92194293685452,0 -106.0487450963059,31.92195705462721,0 -106.0487582256633,31.92197724974673,0 -106.048772052593,31.92198640036333,0 -106.0487946619697,31.92197575429341,0 -106.0488164174801,31.92196377729304,0 -106.0488561100172,31.92193988319796,0 -106.0489005755633,31.92192061163046,0 -106.0489333799452,31.9218972638835,0 -106.0489444618704,31.92188277018002,0 -106.0489347428606,31.92185877413636,0 -106.048899396087,31.9218231436784,0 -106.0488674366145,31.92179780948032,0 -106.0488429788635,31.92176944713646,0 -106.0488332318767,31.92175251502228,0 -106.0488041354421,31.92176597360052,0 -106.0487544764186,31.92179613410398,0 -106.0487131541023,31.9218223616309,0 -106.0486959170116,31.92184375102205,0 -106.0486825261128,31.92186732456953,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

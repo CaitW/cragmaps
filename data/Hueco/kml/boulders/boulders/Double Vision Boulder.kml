@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Double Vision Boulder.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Double Vision Boulder</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0454974149659,31.9210054629119,0 -106.0454900779276,31.92100363404719,0 -106.0454811028923,31.92100294830564,0 -106.045467783622,31.92100066808145,0 -106.0454615157546,31.92100273021491,0 -106.0454549600345,31.92100731266144,0 -106.0454535401254,31.92101991836443,0 -106.0454556864542,31.9210277165452,0 -106.0454545498384,31.92103782368678,0 -106.0454542654803,31.92104035235995,0 -106.045460208537,31.92105483250798,0 -106.0454667246849,31.92106425875222,0 -106.045470805638,31.92106839550163,0 -106.0454751689402,31.92106999663596,0 -106.0454868951741,31.9210734200058,0 -106.0455021700049,31.92107199282059,0 -106.0455144316207,31.92107034567274,0 -106.0455345630998,31.92106545779039,0 -106.0455391649264,31.92106452134531,0 -106.0455575642105,31.92106077019192,0 -106.0455637884966,31.92105867524078,0 -106.0455792216024,31.92105470008314,0 -106.0455870751067,31.92105144698772,0 -106.045590851843,31.92104408052481,0 -106.0455913805265,31.9210390309739,0 -106.0455832406009,31.92103082761299,0 -106.0455761984769,31.92102651305753,0 -106.0455642982772,31.92102565110726,0 -106.0455553781707,31.92102500503442,0 -106.0455364614596,31.92101982318508,0 -106.0455278019511,31.9210166444549,0 -106.0455207523714,31.92101230711639,0 -106.0455153306497,31.92100682529832,0 -106.0455052980322,31.92100226210368,0 -106.0455023137532,31.92100203569543,0 -106.0454974149659,31.9210054629119,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

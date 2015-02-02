@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>North Deliverance.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>North Deliverance</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0485830597708,31.92154528527575,0 -106.048598205712,31.92155139960298,0 -106.0486067921085,31.92155081501963,0 -106.0486122280812,31.92154804638414,0 -106.0486170612518,31.92154050989079,0 -106.0486161354297,31.92153337079911,0 -106.0486133077325,31.92152277351039,0 -106.0486104831643,31.92151218793534,0 -106.0486066880925,31.92150528874679,0 -106.0486016213991,31.9214997019314,0 -106.0485905588901,31.92149223169297,0 -106.0485779779194,31.92148373879118,0 -106.048565415585,31.92147528551234,0 -106.0485563349998,31.9214713243825,0 -106.048550109387,31.92146714082005,0 -106.048541429091,31.92146555385827,0 -106.0485334033885,31.92146861850215,0 -106.0485297065542,31.92147246375109,0 -106.0485223397265,31.92148012634426,0 -106.048520488988,31.92148730172172,0 -106.0485213850087,31.92149425143,0 -106.0485274897563,31.92149845563906,0 -106.048535158493,31.92150373688712,0 -106.0485428548186,31.92150903201511,0 -106.0485552367722,31.92151754818132,0 -106.0485602065009,31.92152310358446,0 -106.0485664506396,31.92152740222227,0 -106.048570493981,31.92153661669544,0 -106.0485714068843,31.92154367859625,0 -106.0485776920463,31.92154802962826,0 -106.0485792676996,31.92154912073006,0 -106.0485830597708,31.92154528527575,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,59 @@
+Error state
+
+-only shows on desktop sizes
+
+1. User clicks "error"
+
+2. Modal pops up, "What's wrong?"
+
+	Dropdown: 	1. Wrong location / shape 
+				2. Incorrect Name
+				3. Missing information
+				4. Other
+
+		1. Wrong location
+
+			Dropdown: "What type of item is incorrect?"
+				1. Area (eg. The New Meadow)
+				2. Boulder / Wall / Roof (eg. The Malice Boulder / Martini Roof)
+				3. Route / Problem
+
+			"Can you draw on the map where it should be?"
+				-show map without any overlays
+				-open leaflet draw tools
+				-allow submitting new information
+
+			Add text area for extra notes
+
+		2. Incorrect Name or Grade
+
+			Dropdown: "What type of item is incorrect?"
+				1. Area (eg. The New Meadow)
+				2. Boulder / Wall / Roof (eg. The Malice Boulder / Martini Roof)
+				3. Route / Problem
+
+			Populate next dropdown with names of areas OR boulders OR routes
+			
+			Add text box underneath to allow for appropriate spelling
+
+			Add text area for extra notes
+
+		3. Missing Information
+
+			Dropdown: "What type of item is missing?"
+				1. Area (eg. The New Meadow)
+				2. Boulder / Wall / Roof (eg. The Malice Boulder / Martini Roof)
+				3. Route / Problem
+
+			"Can you draw on the map where it should be?"
+				-show map without any overlays
+				-open leaflet draw tools
+				-allow submitting new information
+
+			Add text area for extra notes
+
+		4. Other
+
+			"What's up?"
+
+			Add text area for notes

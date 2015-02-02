@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Scary Boulder.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>Scary Boulder</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0484365468955,31.92214656556826,0 -106.0484420184687,31.92213863350287,0 -106.0484493355367,31.92212800022992,0 -106.0484607637734,31.92210991965644,0 -106.0484727773539,31.92209778980897,0 -106.0484809383916,31.9220879827265,0 -106.0484878266107,31.9220789291804,0 -106.0484907811867,31.92207226897605,0 -106.0484945214929,31.92206673069253,0 -106.0484960870532,31.92206077514957,0 -106.0484920402452,31.92205490165615,0 -106.0484861910422,31.92205188157445,0 -106.0484774177023,31.92204735173011,0 -106.0484672026379,31.92204888306571,0 -106.0484608875735,31.92204788585167,0 -106.0484536357444,31.92205091695259,0 -106.0484510672074,31.92205259483939,0 -106.0484433842675,31.92205761374801,0 -106.0484365476808,31.92206377421867,0 -106.0484215663622,31.92207958684307,0 -106.0484172011651,31.92208391578206,0 -106.0484131146982,31.92209127688529,0 -106.0484123697156,31.92209814773563,0 -106.0484116266974,31.92210500010929,0 -106.0484113893485,31.92210993065904,0 -106.0484086073984,31.92211642015159,0 -106.0484104134708,31.92212166028871,0 -106.0484114486389,31.92212578043066,0 -106.0484147855185,31.92213322897599,0 -106.0484173497235,31.92213955475097,0 -106.0484224163213,31.92214430468661,0 -106.0484279303269,31.92214713758207,0 -106.0484306889759,31.92214855486359,0 -106.0484365468955,31.92214656556826,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

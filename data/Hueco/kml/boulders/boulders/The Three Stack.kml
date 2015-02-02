@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>The Three Stack.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>The Three Stack</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0484864292527,31.9222924528199,0 -106.0484843358071,31.92229206607935,0 -106.048479834752,31.92228838990064,0 -106.0484749322327,31.92228655051943,0 -106.0484674809664,31.9222861421939,0 -106.0484595283585,31.92228752870655,0 -106.0484523626146,31.92228999426091,0 -106.0484447105282,31.92229424067966,0 -106.0484393924441,31.92230170341605,0 -106.048435858845,31.92230666200776,0 -106.048432334722,31.92231160729641,0 -106.0484283267498,31.92231830496279,0 -106.0484256073363,31.92232429038047,0 -106.0484254997007,31.92232889678739,0 -106.0484282577018,31.92233494602995,0 -106.0484322667751,31.92234029311325,0 -106.0484354676742,31.92234456232468,0 -106.0484424406114,31.9223467750051,0 -106.048447486605,31.92234403830189,0 -106.0484480856655,31.92233770366528,0 -106.0484531507539,31.92233495052933,0 -106.0484593492101,31.92233610043251,0 -106.0484655487708,31.92233725054187,0 -106.0484706376077,31.92233449364235,0 -106.0484720736904,31.9223291953791,0 -106.0484688856891,31.92232488610338,0 -106.0484658473881,31.92231593169919,0 -106.0484725628573,31.92231530569683,0 -106.0484757560422,31.92231963494458,0 -106.0484815041067,31.92232256608242,0 -106.048487247709,31.92232549502672,0 -106.0484931744979,31.92232379493173,0 -106.048492567758,31.92231807420524,0 -106.0484906718267,31.922313037609,0 -106.048487665689,31.92230401962798,0 -106.0484872302527,31.92229354820602,0 -106.0484864292527,31.9222924528199,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

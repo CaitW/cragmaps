@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>The Grenade.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>The Grenade</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.0439133074782,31.92206511239829,0 -106.0439045558403,31.92206683037209,0 -106.0438965084923,31.92207171890765,0 -106.0438902818486,31.92207323339212,0 -106.0438843731332,31.92208005902174,0 -106.0438836457046,31.92208436691563,0 -106.0438842967452,31.92208751068831,0 -106.0438892805121,31.92209989443455,0 -106.0438919489165,31.92210500392598,0 -106.0438946139517,31.92211010704587,0 -106.0438986587246,31.92211407629755,0 -106.0439053619533,31.92212313972835,0 -106.043912824317,31.92212797736862,0 -106.0439188995296,31.92213393919865,0 -106.0439243561827,31.92213680335352,0 -106.0439361638977,31.92214369812188,0 -106.0439429598488,31.92214558256919,0 -106.0439478126616,31.92214539898692,0 -106.0439575338217,31.92213963530859,0 -106.0439589988517,31.9221384954332,0 -106.0439713044606,31.9221325620655,0 -106.0439747759708,31.92212804473905,0 -106.0439791325008,31.92211919011445,0 -106.0439779381847,31.92211281116136,0 -106.0439696193634,31.92210467030947,0 -106.0439644224956,31.92209958461537,0 -106.0439592275344,31.9220945008225,0 -106.0439465509964,31.92208989622462,0 -106.0439409610332,31.9220870164398,0 -106.0439378580134,31.9220839787058,0 -106.0439341290168,31.92207773667844,0 -106.0439279220029,31.92207166078046,0 -106.0439223529026,31.92206879970842,0 -106.0439157622258,31.92206493370616,0 -106.0439147303728,31.92206392347843,0 -106.0439133074782,31.92206511239829,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

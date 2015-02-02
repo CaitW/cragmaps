@@ -106,7 +106,19 @@ html
 body
 {
     height: 100%;
+    font-size: 1vw;
+
+    @media (max-width: 1200px) and (min-width: 801px)
+    {
+        font-size: 2vw;
+    }
+    @media (max-width: 800px)
+    {
+        font-size: 3vw;
+    }
+
 }
+
 
 a
 {
@@ -124,16 +136,26 @@ a:hover
     width: 100%;
     text-align: center;
     font-family: "Amatic SC";
-    font-size: 5vw;
+    font-size: 500%;
     font-weight: bold;
 }
 
-#content
+.content
 {
     margin: 0 25% 0 25%;
+
+    @media (max-width: 1200px) and (min-width: 801px)
+    {
+        margin: 0 20% 0 20%;
+    }
+    @media (max-width: 800px)
+    {
+        margin: 0 15% 0 15%;
+    }
+
     font-family: "Merriweather";
     text-align: justify;
-    font-size: 1.2vw;
+    font-size: 120%;
 }
 
 #name, #subtitle
@@ -146,13 +168,13 @@ a:hover
 
 #name
 {
-    font-size: 3vw;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 #subtitle
 {
-    font-size: 2vw;
+    font-size: 200%;
 }
 
 ul 
@@ -160,7 +182,7 @@ ul
     list-style: none;
     margin: 0 25% 0 25%;
     text-align: center;
-    font-size: 2vw;
+    font-size: 200%;
     padding: 0;
     li
     {

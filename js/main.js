@@ -107,6 +107,10 @@ $(document).ready(function() {
 			map.removeLayer(overlays.routes);
 		}
 	});
+
+	$(document).on("click","#errorLink", function () {
+		$("#errorModal").toggle();
+	});
 	
 });
 
